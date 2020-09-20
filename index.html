@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Basic calculator</title>
+    <script type="text/javascript" src="main.js">
+    </script>
+  </head>
+
+  <body>
+
+    <div class="main">
+      <h1>
+        This is a testing page
+      </h1>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="index.html">home</a>
+          </li>
+
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main1">
+        <h1 class="head">THE FANTASY CALCULATOR</h1>
+        <div class="content">
+          <div class="input">
+            <tr>
+              <th>
+                <input type="text" placeholder="Enter 1st number" id="first" name="">
+              </th>
+
+              <th>
+                <input type="text" placeholder="Enter 2nd number" id="second" name="">
+              </th>
+            </tr>
+          </div>
+        </div>
+
+        <p class="res">
+          Your result is :<kbd> <span id="result"></span></kbd>
+        </p>
+
+        <div class="operator">
+          <button type="button" class="plus" onclick="add()" name="button">Add</button>
+          <button type="button" class="minus" onclick="minus()" name="button">Subtract</button>
+          <button type="button" class="mul" onclick="mul()" name="button">Multiply</button>
+          <button type="button" class="div" onclick="div()" name="button">Devide</button>
+          <button type="button" class="mod" onclick="mod()" name="button">Modulus</button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+</html>
