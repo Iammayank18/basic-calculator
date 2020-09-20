@@ -238,7 +238,8 @@ h1 {
   #first,
   #second {
     /* width:100%; */
-    margin-left: 20px;
+    margin-left: 10px;
+    font-size: 15px;
   }
 }
 
@@ -248,7 +249,7 @@ h1 {
   #first,
   #second {
     /* width:100%; */
-    /* margin-left: 10px; */
+    margin-left: 10px;
   }
 
   body {
