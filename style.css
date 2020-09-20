@@ -247,7 +247,7 @@ h1 {
 
   #first,
   #second {
-    width: 30%;
+    width: 100%;
   }
 
   body {
@@ -255,7 +255,7 @@ h1 {
   }
 
   .content {
-    margin-right: 40%;
+    width: 100%;
   }
 
   .res {
